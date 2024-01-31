@@ -1,0 +1,32 @@
+.wrappingButtons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+}
+
+.wrappingButtons button {
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+    background-color: rgb(196, 228, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.disPlay {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 215, 21);
+}
